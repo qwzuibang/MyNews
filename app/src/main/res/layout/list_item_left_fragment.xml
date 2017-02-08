@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp"
+    >
+    <ImageView
+        android:id="@+id/img_slide_left_fragment_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/biz_navigation_tab_local_news"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/text_slide_lift_china_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新闻"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:id="@+id/text_slide_lift_english_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEWS"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:layout_below="@id/text_slide_lift_china_name"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
